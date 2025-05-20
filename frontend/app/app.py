@@ -14,7 +14,7 @@ from langchain.prompts import PromptTemplate
 load_dotenv(find_dotenv())  # Load environment variables from .env file
 
 # Document-specific configurations
-with open("data/fakao_gpt4.json", "r", encoding="utf-8") as f:
+with open("../../data/fakao_gpt4.json", "r", encoding="utf-8") as f:
     json_data = json.load(f)
 
 from langchain.docstore.document import Document
